@@ -31,7 +31,7 @@ p.heading1{
     line-height: 50%;
 }
 p.stanza {
-    font-family: italianno;
+    font-family: behind_script;
     font-size: 200%;
     text-align: center;
     line-height: 100%;
@@ -55,11 +55,12 @@ p.weds {
     line-height: 50%;
 }
 p.invite {
-    font-family: behind_script;
-    font-size: 200%;
+    font-family: swash;
+    font-size: 150%;
     text-align: center;
 }
 p.casual {
+    font-family: swash;
     text-align: center;
     line-height: 100%;
 }
