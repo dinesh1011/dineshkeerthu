@@ -1,0 +1,118 @@
+@font-face {
+    font-family: merienda_bold;
+    src: url(./fonts/Merienda-Bold.ttf);
+}
+@font-face {
+    font-family: heaven_matters;
+    src: url(./fonts/HeavenMattersPersonalUse.ttf);
+}
+@font-face {
+    font-family: behind_script;
+    src: url(./fonts/BehindScript.otf);
+}
+@font-face {
+    font-family: swash;
+    src: url(./fonts/BerkshireSwash-Regular.ttf);
+}
+@font-face {
+    font-family: merienda_reg;
+    src: url(./fonts/Merienda-Regular.ttf);
+}
+@font-face {
+    font-family: italianno;
+    src: url(./fonts/Italianno-Regular.ttf);
+}
+
+
+p.headin{
+    font-family: merienda_reg;
+    font-size: 135%;
+    text-align: center;
+    line-height: 50%;
+}
+p.stanza {
+    font-family: italianno;
+    font-size: 200%;
+    text-align: center;
+    line-height: 100%;
+    font-weight: bold;
+    color: black;
+}
+p.namie {
+    font-family: merienda_bold;
+    text-align: center;
+    font-style: italic;
+    font-size: 150%
+    color: black;
+    text-shadow: 2px 2px 0px rgba(0,0,0,0.1);
+    font-weight: bold;
+    line-height: 50%;
+}
+p.weds {
+    font-family: merienda;
+    font-size:90%;
+    text-align: center;
+    line-height: 50%;
+}
+p.invite {
+    font-family: behind_script;
+    font-size: 200%;
+    text-align: center;
+}
+p.casual {
+    text-align: center;
+    line-height: 100%;
+}
+p.name {
+    text-align:center;
+}
+
+body, html {
+    height: 100%;
+}
+
+#background {
+    background-image: url('../images/Two-roses-two-ring-at-bed-1296203742_78.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%; 
+    height: 100%; 
+    position: fixed; 
+    left: 0px; 
+    top: 0px; 
+    z-index: -1; /* Ensure div tag stays behind content; -999 might work, too. */
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+}
+.default_img{
+    width: 100%;
+    height: 100%;
+}
+
+/* ------------- Slider css ------------- */
+
+@keyframes backgroundFadeInOut {
+    0% {
+        opacity:1;
+    }
+    45% {
+        opacity:1;
+    }
+    55% {
+        opacity:0;
+    }
+    100% {
+        opacity:0;
+    }
+}
+
+#background img.default_img {
+    animation-name: backgroundFadeInOut;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-direction: alternate;
+}
