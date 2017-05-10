@@ -28,13 +28,13 @@ p.heading1{
     font-family: merienda_reg;
     font-size: 135%;
     text-align: center;
-    line-height: 50%;
+    line-height: 100%;
 }
 p.stanza {
-    font-family: italianno;
-    font-size: 200%;
+    font-family: behind_script;
+    font-size: 150%;
     text-align: center;
-    line-height: 100%;
+    line-height: 75%;
     font-weight: bold;
     color: black;
 }
@@ -42,26 +42,29 @@ p.namie {
     font-family: merienda_bold;
     text-align: center;
     font-style: italic;
-    font-size: 150%
+    font-size: 100%
     color: black;
     text-shadow: 2px 2px 0px rgba(0,0,0,0.1);
     font-weight: bold;
-    line-height: 50%;
+    line-height: 75%;
 }
 p.weds {
-    font-family: merienda;
+    font-family: merienda_reg;
     font-size:90%;
     text-align: center;
-    line-height: 50%;
+    line-height: 75%;
 }
 p.invite {
     font-family: behind_script;
     font-size: 200%;
     text-align: center;
+    line-height: 75%;
 }
 p.casual {
+    font-family: italianno;
     text-align: center;
-    line-height: 100%;
+    font-size: 150%;
+    line-height: 75%;
 }
 p.name {
     text-align:center;
@@ -85,7 +88,7 @@ body, html {
     filter: blur(5px);
 }
 
-.stretch {
+.default_img {
     width:100%;
     height:100%;
 }

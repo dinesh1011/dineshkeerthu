@@ -28,11 +28,11 @@ p.heading1{
     font-family: merienda_reg;
     font-size: 135%;
     text-align: center;
-    line-height: 50%;
+    line-height: 100%;
 }
 p.stanza {
-    font-family: behind_script;
-    font-size: 200%;
+    font-style: italic;
+    font-size: 90%;
     text-align: center;
     line-height: 100%;
     font-weight: bold;
@@ -46,13 +46,13 @@ p.namie {
     color: black;
     text-shadow: 2px 2px 0px rgba(0,0,0,0.1);
     font-weight: bold;
-    line-height: 50%;
+    line-height: 80%;
 }
 p.weds {
-    font-family: merienda;
-    font-size:90%;
+    font-family: merienda_reg;
+    font-size:60%;
     text-align: center;
-    line-height: 50%;
+    line-height: 80%;
 }
 p.invite {
     font-family: swash;
