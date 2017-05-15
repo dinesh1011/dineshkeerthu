@@ -73,7 +73,7 @@ body, html {
 }
 
 #background {
-    background-image: url('../images/Two-roses-two-ring-at-bed-1296203742_78.jpg');
+    background-image: url('../images/-wedding-wallpapers.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%; 
@@ -82,38 +82,115 @@ body, html {
     left: 0px; 
     top: 0px; 
     z-index: -1; /* Ensure div tag stays behind content; -999 might work, too. */
-    -webkit-filter: blur(10px);
+    -webkit-filter: blur(5px);
     -moz-filter: blur(5px);
     -o-filter: blur(5px);
     -ms-filter: blur(5px);
     filter: blur(5px);
 }
-.default_img{
-    width: 100%;
+
+
+.backgroundimg {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
     height: 100%;
+    width: 100%;
+    z-index: -1;
+
 }
 
-/* ------------- Slider css ------------- */
+#back1 {
+    background: url("../images/46729244-wedding-wallpapers.jpg") no-repeat center fixed;
 
-@keyframes backgroundFadeInOut {
-    0% {
-        opacity:1;
-    }
-    45% {
-        opacity:1;
-    }
-    55% {
-        opacity:0;
-    }
-    100% {
-        opacity:0;
-    }
 }
 
-#background img.default_img {
-    animation-name: backgroundFadeInOut;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    animation-duration: 10s;
-    animation-direction: alternate;
+#back2 {
+    background: url("../images/46735965-wedding-wallpapers.jpg") no-repeat center fixed;
+}
+
+#back3 {
+    background: url("../images/46767051-wedding-wallpapers.jpg") no-repeat center fixed;
+}
+
+#back4 {
+    background: url("../images/shabnamnews2797515644930514.jpg") no-repeat center fixed;
+}
+
+#back5 {
+    background: url("../images/Two-Roses-2560x1440.jpg") no-repeat center fixed;
+}
+
+@keyframes backgroundchangeFadeInOut {
+  0% {
+    opacity:1;
+  }
+  17% {
+    opacity:1;
+  }
+  25% {
+    opacity:0;
+  }
+  92% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes backgroundchangeFadeInOut {
+  0% {
+    opacity:1;
+  }
+  17% {
+    opacity:1;
+  }
+  25% {
+    opacity:0;
+  }
+  92% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+#backgroundchange div:nth-of-type(1) {
+  animation-delay: 15s;
+  -webkit-animation-delay: 15s;
+}
+#backgroundchange div:nth-of-type(2) {
+  animation-delay: 15s;
+  -webkit-animation-delay: 15s;
+}
+#backgroundchange div:nth-of-type(3) {
+  animation-delay: 10s;
+  -webkit-animation-delay: 10s;
+}
+#backgroundchange div:nth-of-type(4) {
+  animation-delay: 5s;
+  -webkit-animation-delay: 5s;
+}
+
+#backgroundchange div:nth-of-type(5) {
+  animation-delay: 0;
+  -webkit-animation-delay: 0;
+}
+
+#backgroundchange div {
+animation-name: backgroundchangeFadeInOut;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 20s;
+
+-webkit-animation-name: backgroundchangeFadeInOut;
+-webkit-animation-timing-function: ease-in-out;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-duration: 20s;
+
 }
