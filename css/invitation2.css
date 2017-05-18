@@ -40,7 +40,7 @@ p.namie {
     color: black;
     text-shadow: 2px 2px 0px rgba(0,0,0,0.1);
     font-weight: normal;
-    line-height: 100%;
+    line-height: 80%;
 }
 p.weds {
     font-family: swash;
@@ -58,7 +58,7 @@ p.casual {
     font-family: swash;
     text-align: center;
     font-size: 100%;
-    line-height: 100%;
+    line-height: 90%;
 }
 p.name {
     font-family: swash;
@@ -70,10 +70,6 @@ body, html {
 }
 
 .backgroundimg {
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -ms-background-size: cover;
     background-size: cover;
     position: fixed;
     background-repeat: no-repeat;
@@ -100,11 +96,11 @@ body, html {
 }
 
 #back4 {
-    background: url("../images/46729244-wedding-wallpapers.jpg");
+    background: url("../images/rings_wedding_roses_composition_80334_3840x2160.jpg");
 }
 
 #back5 {
-    background: url("../images/rings_wedding_roses_composition_80334_2560x1080.jpg");
+    background: url("../images/46729244-wedding-wallpapers.jpg");
 }
 
 @keyframes backgroundchangeFadeInOut {
