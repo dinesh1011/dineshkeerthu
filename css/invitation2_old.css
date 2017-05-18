@@ -24,44 +24,47 @@
 }
 
 
-p.stanza {
-    font-family: swash;
-    font-size: 100%;
+p.heading1{
+    font-family: merienda_reg;
+    font-size: 135%;
     text-align: center;
-    line-height: 120%;
-    font-weight: normal;
+    line-height: 100%;
+}
+p.stanza {
+    font-style: italic;
+    font-size: 90%;
+    text-align: center;
+    line-height: 100%;
+    font-weight: bold;
     color: black;
 }
 p.namie {
-    font-family: swash;
+    font-family: merienda_bold;
     text-align: center;
     font-style: italic;
-    font-size: 100%
+    font-size: 150%
     color: black;
     text-shadow: 2px 2px 0px rgba(0,0,0,0.1);
-    font-weight: normal;
-    line-height: 100%;
+    font-weight: bold;
+    line-height: 80%;
 }
 p.weds {
-    font-family: swash;
-    font-size:90%;
+    font-family: merienda_reg;
+    font-size:60%;
     text-align: center;
-    line-height: 75%;
+    line-height: 80%;
 }
 p.invite {
     font-family: swash;
-    font-size: 120%;
+    font-size: 150%;
     text-align: center;
-    line-height: 120%;
 }
 p.casual {
     font-family: swash;
     text-align: center;
-    font-size: 100%;
     line-height: 100%;
 }
 p.name {
-    font-family: swash;
     text-align:center;
 }
 
